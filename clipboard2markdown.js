@@ -151,8 +151,7 @@
     pastebin.addEventListener('paste', function () {
       setTimeout(function () {
         var html = pastebin.innerHTML;
-        var markdown = convert(html);
-        output.value = markdown;
+        output.value = html.trim();
         wrapper.classList.remove('hidden');
         output.focus();
       }, 200);

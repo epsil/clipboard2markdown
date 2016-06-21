@@ -140,7 +140,7 @@
     document.addEventListener('keydown', function (event) {
       if (event.ctrlKey || event.metaKey) {
         if (String.fromCharCode(event.which).toLowerCase() === 'v') {
-          pastebin.innerHTML = '';
+          pastebin.value = '';
           pastebin.focus();
           info.classList.add('hidden');
           wrapper.classList.add('hidden');
@@ -150,8 +150,8 @@
 
     pastebin.addEventListener('paste', function () {
       setTimeout(function () {
-        var html = pastebin.innerHTML;
-        output.value = html.trim();
+        var text = pastebin.value;
+        output.value = text.trim();
         wrapper.classList.remove('hidden');
         output.focus();
       }, 200);

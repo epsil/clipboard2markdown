@@ -23,11 +23,13 @@ Demo
 Usage
 -----
 
-Open [index.html](index.html) in a favorite browser and hit `Ctrl+C`
-(or `⌘+C` on Mac).
+Open [index.html](index.html) in a favorite browser and hit
+<kbd>Ctrl</kbd> + <kbd>V</kbd> (or <kbd>⌘</kbd> + <kbd>V</kbd>
+on Mac).
 
-To copy the converted Markdown to the clipboard, press `Ctrl+A`
-followed by `Ctrl+C` (or `⌘+A` and `⌘+C` on Mac).
+To copy the converted Markdown to the clipboard, press
+<kbd>Ctrl</kbd> + <kbd>C</kbd> (or <kbd>⌘</kbd> + <kbd>C</kbd>
+on Mac).
 
 One can paste multiple times. This overwrites the previous conversion.
 
